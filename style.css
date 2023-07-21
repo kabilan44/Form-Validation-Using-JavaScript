@@ -1,0 +1,138 @@
+
+body{
+    width: 98vw;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+
+.form{
+    padding: 30px;
+}
+.gradient{
+    background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+}
+.grid{
+    align-items: center;
+    width: 100%;
+}
+.container{
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 5px;
+    width: 500px;
+    padding: 15px;
+}
+
+.form-group{
+    color: #333;
+    margin-bottom: 5px;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    color: #3c40c6;
+    font-weight: 500;
+}
+#gndr{
+    display: block;
+    margin-bottom: 5px;
+    color: #3c40c6;
+    font-weight: 500;
+}
+.form-g p{
+    color: red;
+}
+.form-g input{
+    cursor: pointer;
+} 
+.form-group input{
+    border: 2px solid #aaa;
+    border-radius: 3px;
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
+.form-group select{
+    border: 2px solid #aaa;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
+.form-group select option{
+    border: 2px solid #aaa;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
+.form-group p{
+    color: red;
+}
+.checkbox{
+    display:inline;
+    font-size: 16px;
+}
+.checkbox p{
+    color: red;
+}
+#checkbox{
+    height: 18px;
+    width: 18px;
+}
+.form button{
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #3c40c6;
+    background-color: #3c40c6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+    }
+    .container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+    }
+    .container{
+        width: 100%;
+    }
+    .form{
+        padding: 10px;
+    }
+    .form-group input{
+        border: 2px solid #aaa;
+        border-radius: 3px;
+        width: 95%;
+        padding: 5px;
+        font-size: 12px;
+        outline: none;
+    }
+    .form-g{
+        font-size: 14px;
+    }
+    .checkbox{
+        font-size: 14px;
+    }
+    .form-group::placeholder{
+        font-size: 11px;
+    }
+    .form-group p{
+        font-size: 14px;
+    }
+
+}
